@@ -1,0 +1,51 @@
+#main {
+  height: 200px;
+  border: 2px solid black;
+}
+
+#main div {
+  font-size: 30px;
+}
+
+.has-background-color {
+  background-color: #d4cece;
+}
+
+.is-times-newromem {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+.is-cambria {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.left-col {
+  padding-left: 100px;
+  padding-top: 100px;
+}
+.profile-picture {
+  position: absolute;
+  width: 583px;
+  height: 690px;
+  left: 893px;
+  top: 10px;
+}
+
+.eclipse {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.eclipse::before {
+  content: "Text inside eclipse";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #f00;
+  color: rgb(78, 69, 69);
+  text-align: center;
+}
